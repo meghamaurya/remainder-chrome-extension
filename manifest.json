@@ -1,0 +1,23 @@
+{
+    "name": "Drink Water",
+    "description": "Change dark mode to light mode and Vice Versa",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "alarms"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/favicon.png"
+        }
+    },
+    "icons": {
+        "128": "/images/favicon.png"
+    }
+}
